@@ -24,7 +24,7 @@ export default function PokemonHero(){
         </div>
       </div>
       <div class="relative mt-16 h-80 lg:mt-8">
-        <img class="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="../assets/pokefondo.png" alt="App screenshot" width="1824" height="1080" />
+        <img class="absolute top-0 left-0 w-228 max-w-none rounded-md bg-white/5 ring-1 ring-white/10" src="../assets/pokefondo.jpg" alt="App screenshot" width="1824" height="1080" />
       </div>
     </div>
   </div>
