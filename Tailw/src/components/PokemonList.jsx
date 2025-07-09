@@ -17,7 +17,7 @@ export default function PokemonList(){
             <h3>Pokedex</h3>
              <>
             <h3>Pokedex</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <div className="bg-amber-500 p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {pokemons.map(pokemon =>(
                     <PokemonCard key={pokemon.id} pokemon={pokemon}/>
                 ))}
