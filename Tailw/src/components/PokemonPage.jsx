@@ -1,8 +1,8 @@
-import { useParms, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState, } from "react"; 
 import { getPokemonByName } from "../services/pokeapi";
 export default function PokemonPage(){
-    const { name } = useParms();
+    const { name } = useParams();
     const navigate = useNavigate();
     const [pokemon, setPokemon] = useState("carga");
     let types = ""
