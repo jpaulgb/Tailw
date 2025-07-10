@@ -1,16 +1,14 @@
 import PokemonList from "./components/PokemonList"
-import PokemonHero from "./components/PokemonHero"
-
+import { Route,Routes } from "react-router-dom"
+import PokemonPage from "./components/PokemonPage"
 function App() {
 
   return (
-    <>
-     <h1>Hola</h1>
-    
-     <PokemonList />
-      <PokemonHero /> 
-    </>
-  )
+    <Routes>
+      <Route path="/" element={<PokemonList/>}/>
+      <Route path="/pokemon/:name" element={<PokemonPage/>}/>
+    </Routes>
+    )
 }
 
 export default App
